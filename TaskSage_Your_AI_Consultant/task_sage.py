@@ -4,7 +4,7 @@ from groq import Groq
 
 load_dotenv()
 
-API_KEY = os.getenv("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")
+API_KEY = os.getenv("YOUR_GROQ_API_KEY")
 client = Groq(api_key=API_KEY)
 
 def analyze_task(task):
