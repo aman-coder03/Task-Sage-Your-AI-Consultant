@@ -46,3 +46,6 @@ if st.button("Analyze Task"):
         with st.spinner("Analyzing your task..."):
             result = analyze_task(task_input)
             st.json(result)
+
+st.markdown("---")
+st.caption("Built by Aman Srivastava | TaskSage - Your AI Consultant")
